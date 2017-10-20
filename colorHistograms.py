@@ -4,10 +4,10 @@ from matplotlib import pyplot as plt
 import cv2 
 import os, sys, csv
 
-ofile = open('histograms.csv', 'wb')
+ofile = open('histograms-clean.csv', 'wb')
 writer = csv.writer(ofile, delimiter=',')
 
-path = "data/"
+path = "data - Copy/"
 
 folders = os.listdir(path)
 
